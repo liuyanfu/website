@@ -42,8 +42,15 @@ function division(m, n) {
                     break;
                 }
             }
+
             if (loopbeg != -1) {
                 break;
+            }
+
+            //先随便确定一个上限
+            if (s.length > 64) {
+                output('result number is too large to show.');
+                return;
             }
         }
     }

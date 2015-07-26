@@ -1,0 +1,36 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  font-family: '微软雅黑';
+  font-size: 16px;  
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #4887c3;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+#divideSign {
+  color: #ffffff
+}
+
+.number {
+  font-family:  'Impact';
+  color: #920e51;
+}
