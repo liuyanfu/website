@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>除法运算器示例</title>
+
+</head>
+<body>
+<P>一个除法运算器示例，其作用是将循环的小数部分用括号‘()’表示出来，比如：1.3333……将表示为1.(3)</p>
+<input type="text" title="被除数" id="divider" style="width: 80px" size="8"> /
+<input type="text" title="除数" id="divisor" style="width: 80px" size="8">
+<button title="计算" onclick='javascript:division(document.getElementById("divider").value,document.getElementById("divisor").value)'>计算一下</button>
+<p>结果:<p id="output"></div></p>
+
+<script type="text/javascript" src="division.js"></script>
+</body>
+
+</html>
