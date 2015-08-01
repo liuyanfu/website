@@ -1,84 +1,84 @@
-<?xml version="1.0" encoding="gb2312" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <root>
-    <company name="huawei" logo="image/huawei.jpg" text="��˾��ҵ��ͨ��ϵͳ�豸��Ӧ��" location="�ɶ�/�����о���" website="http://www.huawei.com">
+    <company name="huawei" logo="image/huawei.jpg" text="公司行业：通信系统设备供应商" location="成都/北京研究所" website="http://www.huawei.com">
         <record>
-            <date>2013.9-��(�ɶ�)</date>
-            <jobTitle>ְλ��IT��Ʒ�� ϵͳ���̲�COE</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>�����洢�߶˲�ƷCACHE��ϵͳ�ܹ����ȱ�ݱ���һ�汾����50%��</pe>
-                <pe>����CACHE��ϵͳ����Ч�����������������֤��ܺͶ�����֤CI���ɣ������������ִ�7�����̵�2Сʱ��</pe>
-                <pe>����CACHE��Դ��������֯�ڳ���ơ���������������ͺ�PK���ɹ����á�</pe>
-                <pe>2014���CACHE�����Ŷӻ�û�Ϊ��˾��������Ŷӽ���</pe>
-                <pe>2014��ȣ���û�Ϊ��˾���˽��ƽ���</pe>
+            <date>2013.9-今(成都)</date>
+            <jobTitle>职位：IT产品线 系统工程部COE</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>主导存储高端产品CACHE子系统架构解耦，缺陷比上一版本降低50%。</pe>
+                <pe>主导CACHE子系统开发效率提升，引入独立验证框架和独立验证CI集成，疑难问题重现从7天缩短到2小时。</pe>
+                <pe>建立CACHE开源社区，组织众筹设计、在线设计任务悬赏和PK，成果良好。</pe>
+                <pe>2014年度CACHE解耦团队获得华为公司授予金牌团队奖。</pe>
+                <pe>2014年度，获得华为公司个人金牌奖。</pe>
             </perf>
         </record>
 
         <record>
             <date>2012.8-2013.8</date>
-            <jobTitle>ְλ��IT��Ʒ�� ϵͳ���̲�COE</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>�����洢��Ʒ�߸߶˲�Ʒϵͳ���̣�������ϵͳ��ơ����ɼƻ��ƶ�������ʵ����DT�������������ɷֲ�ִ�С�</pe>
-                <pe>Linux�ں˶��̻߳����У���֯��̿�ܵ��ع������Ϳ����Ѷȣ���߶�λЧ�ʡ�</pe>
+            <jobTitle>职位：IT产品线 系统工程部COE</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>辅导存储产品线高端产品系统工程，包括：系统设计、集成计划制定、检视实践、DT方法、持续集成分层执行。</pe>
+                <pe>Linux内核多线程环境中，组织编程框架的重构，降低开发难度，提高定位效率。</pe>
             </perf>
         </record>
         <record>
-            <date>2011.12-2012.7(����)</date>
-            <jobTitle>ְλ��SOCK��Ŀ��MDE</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>�����������Ľ�������Э��ջUDP Helper���ԡ�ICMP��ȫ���Ե�TR2�׶���ƣ��Լ�����������</pe>
-            </perf>
-        </record>
-
-        <record>
-            <date>2011.7-2011.11(����)</date>
-            <jobTitle>ְλ��MDE��ģ����ƹ���ʦ��</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>����V8R5�汾�������Ľ���������ҵ˽���ƣ���Э��ջ����TR1/TR2�׶���ơ��ɹ�������˳��ͨ��TR2����㡣��Ҫǣͷ��Ƶ����ԣ�UDP Helper���ԡ�ICMP��ȫ���ԡ�IP-MIB���ԡ�GMAC���ԡ�IP SOURCEGUARD���ԡ�</pe>
+            <date>2011.12-2012.7(北京)</date>
+            <jobTitle>职位：SOCK项目组MDE</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>负责数据中心交换机，协议栈UDP Helper特性、ICMP安全特性的TR2阶段设计，以及迭代交付。</pe>
             </perf>
         </record>
 
         <record>
-            <date>2011.1-2011.6(����)</date>
-            <jobTitle>ְλ����Ŀ������PL��</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>SOCK/TCP���Ի�����ά�����ɿ��ԡ���������������V8R2�汾�ɹ�ͨ�����ݵ����о�Ժ�������ԡ�</pe>
+            <date>2011.7-2011.11(北京)</date>
+            <jobTitle>职位：MDE（模块设计工程师）</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>负责V8R5版本数据中心交换机（企业私有云）中协议栈部分TR1/TR2阶段设计。成功交付，顺利通过TR2评审点。主要牵头设计的特性：UDP Helper特性、ICMP安全特性、IP-MIB特性、GMAC特性、IP SOURCEGUARD特性。</pe>
             </perf>
         </record>
 
         <record>
-            <date>2008.6-2010.12(����)</date>
-            <jobTitle>ְλ����Ŀ������PL��������ϵͳBBIT������</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>SOCK/TCP���Ի�����ά���������Ŷ�֧��VRPv8R1�汾ͨ��ɽ�����Ե㿪�ֳɹ���</pe>
+            <date>2011.1-2011.6(北京)</date>
+            <jobTitle>职位：项目经理（PL）</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>SOCK/TCP特性基本免维护。可靠性、性能显著提升，V8R2版本成功通过广州电信研究院入网测试。</pe>
             </perf>
         </record>
 
         <record>
-            <date>2007.8-2008.5(����)</date>
-            <jobTitle>ְλ����Ŀ������PL��</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>VRPv8R1ϵͳЭ��ջ�ܹ���ƣ����V8��ƽ����ɹ�����TCP/UDP NSR���ԡ�</pe>
-                <pe>ר��������
-                    ר���ţ�200810241694 ��һ��֧�֣ԣã�Э�����ӵı��ݷ��������豸��
-                    ר���ţ�200810189103 ���ֲ�ʽϵͳ��ҵ�����ݹ���������װ�ü��ֲ�ʽϵͳ��</pe>
+            <date>2008.6-2010.12(北京)</date>
+            <jobTitle>职位：项目经理（PL），兼子系统BBIT责任人</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>SOCK/TCP特性基本免维护。带领团队支撑VRPv8R1版本通过山东局试点开局成功。</pe>
             </perf>
         </record>
 
         <record>
-            <date>2006.11-2007.7(����)</date>
-            <jobTitle>ְλ��IP/MPLS��Ŀ����������ʦ������IP/MPLSģ�鿪����ά��</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>����UCMP��Ŀ�������ɹ�������</pe>
+            <date>2007.8-2008.5(北京)</date>
+            <jobTitle>职位：项目经理（PL）</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>VRPv8R1系统协议栈架构设计，获得V8设计奖。成功交付TCP/UDP NSR特性。</pe>
+                <pe>专利发明：
+                    专利号：200810241694 《一种支持ＴＣＰ协议连接的备份方法及其设备》
+                    专利号：200810189103 《分布式系统的业务数据管理方法、装置及分布式系统》</pe>
+            </perf>
+        </record>
+
+        <record>
+            <date>2006.11-2007.7(北京)</date>
+            <jobTitle>职位：IP/MPLS项目组软件工程师，负责IP/MPLS模块开发与维护</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>负责UCMP项目开发，成功交付。</pe>
             </perf>
         </record>
     </company>
 
-    <company name="xindu" logo="image/xindu.jpg" text="��˾��ҵ������֧��������������Ӧ��" location="�ɶ�" website="http://www.sunnysec.com.cn">
+    <company name="xindu" logo="image/xindu.jpg" text="公司行业：银行支付密码解决方案供应商" location="成都" website="http://www.sunnysec.com.cn">
         <record>
             <date>2005.7-2006.10</date>
-            <jobTitle>C++��������ʦ</jobTitle>
-            <perf text = "��Ҫ��Ч��">
-                <pe>֧������ϵͳ�ĺ�̨�����߼��Ŀ�����ά����</pe>
+            <jobTitle>C++软件工程师</jobTitle>
+            <perf text = "主要绩效：">
+                <pe>支付密码系统的后台核验逻辑的开发与维护。</pe>
             </perf>
         </record>
     </company>
