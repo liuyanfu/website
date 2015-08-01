@@ -52,7 +52,8 @@ function procNode(node) {
         case "date":
         case "jobTitle":
         case "pe":
-            return "<li>" + getNodeText(node)  +"</li>";
+			str = node.getAttribute("text");
+            return "<li>" + str  +"</li>";
         default:
             alert('error!');
             break;
