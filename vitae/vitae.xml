@@ -76,7 +76,7 @@
     <company name="xindu" logo="image/xindu.jpg" text="公司行业：银行支付密码解决方案供应商" location="成都" website="http://www.sunnysec.com.cn">
         <record>
             <date text="2005.7-2006.10"></date>
-            <jobTitle text="C++软件工程师"></jobTitle>
+            <jobTitle text="职位：C++软件工程师"></jobTitle>
             <perf text = "主要绩效：">
                 <pe text="支付密码系统的后台核验逻辑的开发与维护。"></pe>
             </perf>

@@ -32,25 +32,31 @@ function procNode(node) {
         case "company":
             str = "<div>";
             str += "<p><img src='" + node.getAttribute("logo") +"'></img></p>";
-            str += "<p>" + node.getAttribute("text") +"</p>";
-            str += "<p>" + node.getAttribute("location") +"</p>";
-            str += "<p><a href='" + node.getAttribute("website") +"'>" + node.getAttribute("website") + "</a></p>";
+            str += node.getAttribute("text");
+            str += node.getAttribute("location");
+            str += "<p class='website'><a href='" + node.getAttribute("website") +"'>" + node.getAttribute("website") + "</a></p><br/>";
+            str += parseNodeList(node.childNodes);
+            str += "</div>";
+            str += "<br/><br/>";
+            return str;
+        case "record":
+            str = "<div class='record'>";
             str += parseNodeList(node.childNodes);
             str += "</div>";
             return str;
-        case "record":
-            str = "<p>";
-            str += parseNodeList(node.childNodes);
-            str += "</p>";
-            return str;
         case "perf":
-            str = node.getAttribute("text");
             str += "<ul>";
+            str = node.getAttribute("text");
             str += parseNodeList(node.childNodes);
             str += "</ul>";
             return str;
         case "date":
+            str =
+            str += node.getAttribute("text");
+            return  "<div class='date'>" + str  + "</div>";
         case "jobTitle":
+            str += node.getAttribute("text");
+            return "<div class='role'>" + str  + "</div>";
         case "pe":
 			str = node.getAttribute("text");
             return "<li>" + str  +"</li>";
@@ -64,18 +70,6 @@ function fillContent(div_id, str)
 {
     var cdiv = document.getElementById(div_id);
     cdiv.innerHTML = "<p>" + str + "</p>"
-}
-
-function getNodeText(node) {
-
-    var txt = "浏览器不支持!"
-    if(!window.DOMParser && window.ActiveXObject){
-        txt = node.text;
-    }else if(document.implementation && document.implementation.createDocument){
-        txt = node.innerHTML;
-    }
-
-    return txt;
 }
 
 function loadXML(xmlFile){
