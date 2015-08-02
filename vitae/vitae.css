@@ -24,6 +24,7 @@ body {
     font-family: inherit;
     float: left;
     width: 15em;
+    margin-right: 1em;
 }
 
 #assessment {
@@ -31,7 +32,6 @@ body {
     font-family: inherit;
     width: 18em;
     margin-bottom: 1em;
-    margin-left: 1em;
 }
 
 #photo {
