@@ -18,7 +18,7 @@ function procCompany(comp) {
     var website = comp.attr("website");
 
     str += "<div>";
-    str += "<p><img src='" + logo + "'></img></p>";
+    str += "<p><img src='" + logo + "' alt='company logo'></img></p>";
     str += text;
     str += location;
     str += "<p class='website'><a href='" + website + "'>" + website + "</a></p><br/>";
