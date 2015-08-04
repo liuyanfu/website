@@ -1,0 +1,89 @@
+
+
+
+p {
+    margin: 0em;
+}
+
+
+H1 {
+    text-align: center;
+}
+
+H2 {
+    font-weight: bold;
+    color:black;
+    font-size: 1.5em;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+#basisInfo {
+    font-family: inherit;
+    float: left;
+    width: 15em;
+    margin-right: 1em;
+}
+
+#assessment {
+    float: left;
+    font-family: inherit;
+    width: 18em;
+    margin-bottom: 1em;
+}
+
+#photo {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    float: left;
+}
+
+#career {
+    clear:left;
+    color: brown;
+    font-family: inherit;
+    font: 1.5em bold;
+    border-top: dashed lightgrey ;
+}
+
+#basisInfo > p:first-child, #assessment > p:first-child {
+    color: brown;
+    font-weight: bold;
+    font-family: inherit;
+    border-bottom: solid brown;
+}
+
+.website {
+    border-bottom: solid darkgreen;
+}
+.date {
+    font-family: "impact";
+    color: brown;
+    border-bottom: solid deepskyblue;
+    width: 10em;
+}
+.record {
+    margin-bottom: 1em;
+}
+
+#vitaebottom {
+    border-bottom: dashed lightgrey ;
+}
+
+#perf {
+    margin-top: 0em;
+}
+
+#mail {
+    color:black;
+    text-decoration: none;
+}
+
+#mail:hover {
+    color: blue;
+    text-decoration: underline;
+}
