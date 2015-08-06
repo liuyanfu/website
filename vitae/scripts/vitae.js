@@ -1,9 +1,9 @@
 $(document).ready(function () {
     var str = "";
-
     $.get("vitae.xml", function (xml) {
-        for (var comp = $(xml).find("company:first"); comp.length != 0; comp = comp.next()) {
-            str += procCompany(comp);
+        var comp = $(xml).find("company");
+        for (var i = 0; i < comp.length; i++) {
+            str += procCompany($(comp.get(i)));
         }
         $("#vitaecont").html("<p>" + str + "</p>");
     });
@@ -25,8 +25,9 @@ function procCompany(comp) {
 
     str += "<div class='record'>";
 
-    for (var record = comp.find("record:first"); record.length != 0; record = record.next()) {
-        str += procRecord(record);
+    var recordArray = comp.children("record");
+    for (var i = 0; i < recordArray.length; i++) {
+        str += procRecord($(recordArray.get(i)));
     }
     str += "</div>";
     str += "</div>";
@@ -37,9 +38,9 @@ function procCompany(comp) {
 
 function procRecord(record) {
     var str = "";
-    var date = record.find("date").attr("text");
-    var jobTitle = record.find("jobTitle").attr("text");
-    var perf = record.find("perf");
+    var date = record.children("date").attr("text");
+    var jobTitle = record.children("jobTitle").attr("text");
+    var perf = record.children("perf");
 
     str += "<div class='date'>" + date + "</div>";
     str += "<div class='role'>" + jobTitle + "</div>";
@@ -50,8 +51,9 @@ function procRecord(record) {
 
 function procPref(perf) {
     var str = perf.attr("text") + "<ul id='perf'>";
-    for (var pe = perf.find("pe:first"); pe.length != 0; pe = pe.next()) {
-        var pet = pe.attr("text");
+    var peArray = perf.children("pe");
+    for (var i = 0; i < peArray.length; i++) {
+        var pet = $(peArray.get(i)).attr("text");
         str += "<li>" + pet + "</li>";
     }
     str += "</ul>";
