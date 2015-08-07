@@ -50,7 +50,7 @@ function procRecord(record) {
 }
 
 function procPref(perf) {
-    var str = "主要绩效" + "<ul id='perf'>";
+    var str = "主要绩效 " + "<ul id='perf'>";
     var peArray = perf;
     for (var i = 0; i < peArray.length; i++) {
         str += "<li>" + peArray[i] + "</li>";
