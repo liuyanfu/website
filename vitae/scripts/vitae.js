@@ -1,4 +1,4 @@
-$(document).ready(function () {
+ï»¿$(document).ready(function () {
     var str = "";
     $.getJSON("vitae.json", function (jsonArray) {
 
@@ -50,7 +50,7 @@ function procRecord(record) {
 }
 
 function procPref(perf) {
-    var str = "Ö÷Òª¼¨Ğ§" + "<ul id='perf'>";
+    var str = "ä¸»è¦ç»©æ•ˆ" + "<ul id='perf'>";
     var peArray = perf;
     for (var i = 0; i < peArray.length; i++) {
         str += "<li>" + peArray[i] + "</li>";
