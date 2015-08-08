@@ -1,9 +1,9 @@
 ﻿$(document).ready(function () {
     var str = "";
-    $.getJSON("vitae.json", function (jsonArray) {
-
-        for (var i = 0; i < jsonArray.length; i++ ) {
-            str += procCompany(jsonArray[i]);
+    $.get("vitae.xml", function (xml) {
+        var comp = $(xml).find("company");
+        for (var i = 0; i < comp.length; i++) {
+            str += procCompany($(comp.get(i)));
         }
         $("#vitaecont").html("<p>" + str + "</p>");
     });
@@ -11,11 +11,11 @@
 
 function procCompany(comp) {
     var str = "";
-    var name = comp.name;
-    var logo = comp.logo;
-    var text = comp.business;
-    var location = comp.location;
-    var website = comp.website;
+    var name = comp.attr("name");
+    var logo = comp.attr("logo");
+    var text = comp.attr("text");
+    var location = comp.attr("location");
+    var website = comp.attr("website");
 
     str += "<div>";
     str += "<p><img src='" + logo + "' alt='company logo'></img></p>";
@@ -25,9 +25,9 @@ function procCompany(comp) {
 
     str += "<div class='record'>";
 
-    var recordArray = comp.record;
+    var recordArray = comp.children("record");
     for (var i = 0; i < recordArray.length; i++) {
-        str += procRecord(recordArray[i]);
+        str += procRecord($(recordArray.get(i)));
     }
     str += "</div>";
     str += "</div>";
@@ -38,9 +38,9 @@ function procCompany(comp) {
 
 function procRecord(record) {
     var str = "";
-    var date = record.date;
-    var jobTitle = record.jobTitle;
-    var perf = record.perf;
+    var date = record.children("date").attr("text");
+    var jobTitle = record.children("jobTitle").attr("text");
+    var perf = record.children("perf");
 
     str += "<div class='date'>" + date + "</div>";
     str += "<div class='role'>" + jobTitle + "</div>";
@@ -50,10 +50,11 @@ function procRecord(record) {
 }
 
 function procPref(perf) {
-    var str = "主要绩效 " + "<ul id='perf'>";
-    var peArray = perf;
+    var str = perf.attr("text") + "<ul id='perf'>";
+    var peArray = perf.children("pe");
     for (var i = 0; i < peArray.length; i++) {
-        str += "<li>" + peArray[i] + "</li>";
+        var pet = $(peArray.get(i)).attr("text");
+        str += "<li>" + pet + "</li>";
     }
     str += "</ul>";
     return str;
