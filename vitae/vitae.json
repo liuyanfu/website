@@ -6,7 +6,24 @@
 	"location":"成都/北京研究所",
 	"website" :"http://www.huawei.com",
 	"record" : [
-	  {"date":"2013.9-今(成都)",
+	  {"date":"2014.9-2015.3(成都)",
+		"jobTitle":"职位：IT产品线 系统工程部COE",
+		"perf":[
+		  "在云计算FusionShpere的微服务Pipeline的研发中，主导CI-Cloud环境设计，将公有云、自建云、物理设备形成统一的资源池，提供给Pipeline虚拟环境和物理环境的动态申请和释放功能，支持环境的动态伸缩和自动编排。",
+		  "在Pipeline选型，负责分析业界OpenStack的zuul pipeline、Jenkins2.0 pipeline以及公司CloudSop Pipeline架构，给出分析结论和选型建议。"]},
+	  {"date":"2015.4-2015.12(成都)",
+		"jobTitle":"职位：IT产品线 系统工程部COE",
+		"perf":[
+		  "主导分布式CACHE验证系统架构设计，最小3节点，最大4K节点纯软件分布式集群验证系统。引入业界开源分布式配置管理部件zookeeper，并完成分布式通信分析和选型，分析zeroq、kafka、rabbitmq，最终选用rabbitmq完成底层通信。减少整个系统的开发工作量。",
+		  "主导分布式CACHE验证系统原形框架开发，该系统将作为以后独立分布式Cache系统的演进原形。",
+		  "引入docker作为分布式验证系统基础，在单虚拟机上安装7节点docker集群，带领团队在迭代零（2周）完成基础架构搭建，并执行模拟IO，完成原形验证。联调和验证效率大幅提高，平台TR4提前一周交付完成。"]},
+	  {"date":"2014.9-2015.3(成都)",
+		"jobTitle":"职位：IT产品线 系统工程部COE",
+		"perf":[
+		  "主导OceanStor DJ敏捷管理实践，与PM结对，引入ALM Lite工具套件，在需求分解、迭代计划、跟踪度量在ALM Lite上落地，在Rally工具中加强Scrum敏捷管理方法，提高管理效率。",
+		  "引入docker实践，使OceanStor DJ的打包安装从以前的20分钟减少到10s，构建频率增加，并将docker的快速打包和部署集成到CI系统，并获得PDU效率提升奖。",
+		  "参与DPS独立验证框架方案设计，主导新员工独立验证框架下的LLT方法赋能。"]},
+	  {"date":"2013.9-2014.10(成都)",
 		"jobTitle":"职位：IT产品线 系统工程部COE",
 		"perf":[
 		  "主导存储高端产品CACHE子系统架构解耦，缺陷比上一版本降低50%。",
