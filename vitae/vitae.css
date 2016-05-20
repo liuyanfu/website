@@ -21,9 +21,9 @@ body {
 }
 
 li {
-   margin-top:1em;
-   float:left;
-   width:80em; 
+   margin-top:0.5em;
+   margin-bottom:0.5em;
+   width:40em; 
 }
 
 #basisInfo {
