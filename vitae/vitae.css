@@ -20,6 +20,10 @@ body {
     font-family: "微软雅黑";
 }
 
+li {
+   width: 80em; 
+}
+
 #basisInfo {
     font-family: inherit;
     float: left;
