@@ -9,52 +9,66 @@
     <script src="scripts/jquery-1.11.3.js" type="text/javascript"></script>
 </head>
 <body>
-    <H1>简历</H1>
-    <div id="basisInfo">
-		<p id="basis">基本信息</p>
-        <img id="photo" src="image/photo.jpg" alt="证件照">
-		<p>姓名：刘彦夫</p>
-		<p>性别：男</p>
-		<p>出生日期：1983.2.19</p>
-		<p>联系电话：18611352592</p>
-        <a id="mail" href="mailto:lyf219@huawei.com">邮箱地址：lyf219@huawei.com</a>
+<H1>简历</H1>
+<div>
+    <div id="left_panel">
+        <div id="img_frame">
+            <img id="photo" src="image/photo.jpg" alt="证件照">
+            <div class="basisInfo">
+                <p>姓名：刘彦夫</p>
+                <p>生日：1983年2月19日</p>
+                <p>电话：18583396119</p>
+                <p>邮箱：lyf219@163.com</p>
+            </div>
+        </div>
     </div>
+    <div id="right_panel">
+        <!--<div id="basisInfo">-->
+            <!--<p id="basis">基本信息</p>-->
+            <!--<p>姓名：刘彦夫</p>-->
+            <!--<p>性别：男</p>-->
+            <!--<p>出生日期：1983.2.19</p>-->
+            <!--<p>联系电话：18611352592</p>-->
+            <!--<a id="mail" href="mailto:lyf219@huawei.com">邮箱地址：lyf219@163.com</a>-->
+        <!--</div>-->
 
-    <div id="assessment">
-		<p>自我评价</p>
-		<p>沟通能力强，喜欢与人交流。</p>
-		<p>做事认真踏实，不骄不躁，实事求是，开放进取。</p>
-	</div>
+        <div id="assessment">
+            <p>自我评价</p>
+            <p>沟通能力强，喜欢与人交流。</p>
+            <p>做事认真踏实，不骄不躁，实事求是，开放进取。</p>
+        </div>
 
-	<div id="career">
-        <p>工作经历
-        <span>由近及远</span>
-        </p>
+        <div id="career">
+            <p>工作经历
+                <span>由近及远</span>
+            </p>
+        </div>
+
+        <div id="vitaecont">
+        </div>
+
+        <div id="vitaebottom"></div>
+
+        <footer>
+            <H2>培训与沟通能力</H2>
+            <B>培训</B>
+            <ul>
+                <li>2009年评为北京研究所组织级讲师</li>
+                <li>2009-2011年负责北研所TCP/IP基础培训，每场培训在40人左右，最多的一场超过100人</li>
+                <li>2011-今 部门常设新员工培训讲师</li>
+            </ul>
+
+            <B>教育背景</B>
+            <ul>
+                <li> 毕业学校：四川大学（2001.9-2005.7）</li>
+                <li>学历：本科（工程学士学位）</li>
+                <li>专业类别：通信工程</li>
+                <li>专业名称：电子信息工程</li>
+            </ul>
+        </footer>
     </div>
-
-	<div id="vitaecont">
-	</div>
-
-    <div id="vitaebottom"></div>
-
-    <footer>
-        <H2>培训与沟通能力</H2>
-        <B>培训</B>
-        <ul>
-            <li>2009年评为北京研究所组织级讲师</li>
-            <li>2009-2011年负责北研所TCP/IP基础培训，每场培训在40人左右，最多的一场超过100人</li>
-            <li>2011-今  部门常设新员工培训讲师</li>
-        </ul>
-
-        <B>教育背景</B>
-        <ul>
-            <li> 毕业学校：四川大学（2001.9-2005.7）</li>
-            <li>学历：本科（工程学士学位）</li>
-            <li>专业类别：通信工程</li>
-            <li>专业名称：电子信息工程</li>
-        </ul>
-    </footer>
-    <script src="scripts/vitae.js" type="text/javascript"></script>
+</div>
+<script src="scripts/vitae.js" type="text/javascript"></script>
 </body>
 
 </html>

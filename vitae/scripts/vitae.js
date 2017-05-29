@@ -1,7 +1,7 @@
 
 window.onerror = function(sMessage,sUrl,sLine){
     alert(sMessage + ",url=" + sUrl+ ", line:" + sLine);
-}
+};
 
 
 $(document).ready(function () {
@@ -19,14 +19,14 @@ $(document).ready(function () {
 
 function procCompany(comp) {
     var str = "";
-    var name = comp.name;
+    // var name = comp.name;
     var logo = comp.logo;
     var text = comp.business;
     var location = comp.location;
     var website = comp.website;
 
     str += "<div>";
-    str += "<p><img src='" + logo + "' alt='company logo'></img></p>";
+    str += "<p><img src='" + logo + "' alt='company logo'></p>";
     str += text;
     str += location;
     str += "<p class='website'><a href='" + website + "'>" + website + "</a></p><br/>";
@@ -58,7 +58,7 @@ function procRecord(record) {
 }
 
 function procPref(perf) {
-    var str = "主要绩效" + "<ul id='perf'>";
+    var str = "主要绩效" + "<ul class='perf'>";
     var peArray = perf;
     for (var i = 0; i < peArray.length; i++) {
         str += "<li>" + peArray[i] + "</li>";

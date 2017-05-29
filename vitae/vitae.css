@@ -2,7 +2,7 @@
 
 
 p {
-    margin: 0em;
+    margin: 0;
 }
 
 
@@ -17,46 +17,69 @@ H2 {
 }
 
 body {
-    font-family: "微软雅黑";
+    font-family: "微软雅黑", serif;
 }
 
 li {
    margin-top:0.5em;
    margin-bottom:0.5em;
-   width:40em; 
 }
 
-#basisInfo {
-    font-family: inherit;
-    float: left;
-    width: 25em;
-    margin-right: 1em;
+#left_panel {
+    /*height: 100em;*/
+    width: 25%;
+    float:left;
 }
 
-#assessment {
-    float: left;
-    font-family: inherit;
-    width: 18em;
-    margin-bottom: 1em;
+#img_frame {
+    padding-top:3%;
+    padding-bottom: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: brown;
+    width: 80%;
+    margin: 0 auto;
+    /*margin-top: 5%;*/
 }
 
 #photo {
-    /*margin-left: 2em;*/
-    /*margin-right: 2em;*/
-    margin-bottom: 1em;
-    /*margin-top: 1em;*/
-    float: left;
+    width: 100%;
 }
+
+#right_panel {
+    float: left;
+    width:70%;
+}
+
+.basisInfo {
+    color:white;
+    font-size: x-large;
+}
+
+
+/*#basisInfo {*/
+    /*font-family: inherit;*/
+    /*float: left;*/
+    /*width: 25em;*/
+    /*margin-right: 1em;*/
+/*}*/
+
+#assessment {
+    font-family: inherit;
+    /*width: 18em;*/
+    margin-bottom: 1em;
+}
+
 
 #career {
     clear:left;
     color: brown;
-    font-family: inherit;
     font: 1.5em bold;
-    border-top: dashed lightgrey ;
+    border-bottom: dashed lightgrey ;
 }
 
-#basis, #assessment > p:first-child {
+
+ #assessment > p:first-child {
     color: brown;
     font-weight: bold;
     font-family: inherit;
@@ -67,7 +90,7 @@ li {
     border-bottom: solid darkgreen;
 }
 .date {
-    font-family: "impact";
+    font-family: "impact", serif;
     color: brown;
     border-bottom: solid deepskyblue;
     width: 10em;
@@ -80,16 +103,6 @@ li {
     border-bottom: dashed lightgrey ;
 }
 
-#perf {
-    margin-top: 0em;
-}
-
-#mail {
-    color:black;
-    text-decoration: none;
-}
-
-#mail:hover {
-    color: blue;
-    text-decoration: underline;
+.perf {
+    margin-top: 0;
 }
