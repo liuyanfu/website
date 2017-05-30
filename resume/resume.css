@@ -150,7 +150,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .content {
-        float: none;
+        /*float: none;*/
         width: auto;
     }
 }
