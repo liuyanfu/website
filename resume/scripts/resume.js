@@ -6,10 +6,10 @@ window.onerror = function(sMessage,sUrl,sLine){
 
 $(document).ready(function () {
     var str = "";
-    if (!isPCDevice()) {
-        alert("抱歉暂时不支持手机显示，请使用PC打开本页面。");
-        return;
-    }
+    // if (!isPCDevice()) {
+    //     alert("抱歉暂时不支持手机显示，请使用PC打开本页面。");
+    //     return;
+    // }
 
     $.getJSON("resume.json", function (jsonArray) {
 
@@ -78,18 +78,18 @@ function procPref(perf) {
 /**
  * 判断是否是pc设备
  */
-function isPCDevice() {
-    var userAgentInfo = navigator.userAgent;
-    var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPod"];
-    var flag = true;
-    for (var v = 0; v < Agents.length; v++) {
-        if (userAgentInfo.indexOf(Agents[v]) > 0) {
-            flag = false;
-            break;
-        }
-    }
-    if(window.screen.width>=768){
-        flag = true;
-    }
-    return flag;
-}
+// function isPCDevice() {
+//     var userAgentInfo = navigator.userAgent;
+//     var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPod"];
+//     var flag = true;
+//     for (var v = 0; v < Agents.length; v++) {
+//         if (userAgentInfo.indexOf(Agents[v]) > 0) {
+//             flag = false;
+//             break;
+//         }
+//     }
+//     if(window.screen.width>=768){
+//         flag = true;
+//     }
+//     return flag;
+// }

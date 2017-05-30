@@ -29,9 +29,16 @@ body {
     float:left;
 }
 
+@media screen and (max-width: 900px) {
+    #left_panel {
+        float: none;
+        width: 100%;
+    }
+}
+
 #img_frame {
     padding-top:3%;
-    padding-bottom: 50%;
+    /*padding-bottom: 50%;*/
     padding-left: 3%;
     padding-right: 3%;
     background-color: rgba(226, 226, 165, 0.64);
@@ -51,6 +58,12 @@ body {
     float: left;
     width:70%;
 }
+@media screen and (max-width: 900px) {
+    #right_panel {
+        float: none;
+        width: auto;
+    }
+}
 
 .basisInfo {
     color: #68622e;
@@ -69,7 +82,7 @@ body {
 /*}*/
 
 #assessment {
-    font-family: "华文行楷";
+    font-family: "华文行楷", "serif";
     /*width: 18em;*/
 }
 
@@ -80,7 +93,7 @@ body {
     color: brown;
     font: 1.5em bold;
     border-bottom: solid #c8c065;
-    font-family: "华文新魏";
+    font-family: "华文新魏", "serif";
 }
 
 
@@ -123,7 +136,7 @@ body {
 }
 
 .role {
-    font-family: "华文楷体";
+    font-family: "华文楷体", "serif";
     font-weight: bold;
     color: #68622e;
     font-size: 24px;
@@ -133,12 +146,19 @@ body {
     float: left;
     width: 65%;
     /*border: solid rebeccapurple;*/
-
 }
+
+@media screen and (max-width: 900px) {
+    .content {
+        float: none;
+        width: auto;
+    }
+}
+
 
 .perf {
     margin-top: 0;
-    font-family: "华文细黑";
+    font-family: "华文细黑", "serif";
     font-size:16px;
 }
 
