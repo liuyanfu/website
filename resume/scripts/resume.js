@@ -6,12 +6,12 @@ window.onerror = function(sMessage,sUrl,sLine){
 
 $(document).ready(function () {
     var str = "";
-    $.getJSON("vitae.json", function (jsonArray) {
+    $.getJSON("resume.json", function (jsonArray) {
 
         for (var i = 0; i < jsonArray.length; i++ ) {
             str += procCompany(jsonArray[i]);
         }
-        $("#vitaecont").html("<p>" + str + "</p>");
+        $("#resumecont").html("<p>" + str + "</p>");
     });
 
 });
@@ -25,7 +25,7 @@ function procCompany(comp) {
     var location = comp.location;
     var website = comp.website;
 
-    str += "<div>";
+    str += "<div class='comp'>";
     str += "<p><img src='" + logo + "' alt='company logo'></p>";
     str += text;
     str += location;
@@ -50,19 +50,22 @@ function procRecord(record) {
     var jobTitle = record.jobTitle;
     var perf = record.perf;
 
-    str += "<div class='date'>" + date + "</div>";
-    str += "<div class='role'>" + jobTitle + "</div>";
+    str += "<div class='onerecord'>"
+    str += "    <div class='date'>" + date + "</div>";
+    str += "    <div class='content'>"
+    str += "        <div class='role'>" + jobTitle + "</div>";
     str += procPref(perf);
-
+    str += "    </div>"
+    str += "</div>"
     return str;
 }
 
 function procPref(perf) {
-    var str = "主要绩效" + "<ul class='perf'>";
+    var str = "<B>主要绩效</B>" + "<p class='perf'>";
     var peArray = perf;
     for (var i = 0; i < peArray.length; i++) {
-        str += "<li>" + peArray[i] + "</li>";
+        str += "<p class='perf'>" + peArray[i] + "</p>";
     }
-    str += "</ul>";
+    str += "</p>";
     return str;
 }

@@ -1,0 +1,149 @@
+p {
+    margin: 5px;
+}
+
+
+H1 {
+    text-align: center;
+}
+
+H2 {
+    font-weight: bold;
+    color:black;
+    font-size: 1.5em;
+}
+
+body {
+    font-family: "微软雅黑", serif;
+    background-color: #f7f8d5;
+}
+
+/*li {*/
+   /*margin-top:0.5em;*/
+   /*margin-bottom:0.5em;*/
+/*}*/
+
+#left_panel {
+    /*height: 100em;*/
+    width: 25%;
+    float:left;
+}
+
+#img_frame {
+    padding-top:3%;
+    padding-bottom: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgba(226, 226, 165, 0.64);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #e3eac6;
+    /*margin-top: 5%;*/
+}
+
+#photo {
+    width: 100%;
+}
+
+#right_panel {
+    float: left;
+    width:70%;
+}
+
+.basisInfo {
+    color: #68622e;
+    font-size: 20px;
+}
+
+.basisInfo p {
+    margin-top:20px;
+}
+
+/*#basisInfo {*/
+    /*font-family: inherit;*/
+    /*float: left;*/
+    /*width: 25em;*/
+    /*margin-right: 1em;*/
+/*}*/
+
+#assessment {
+    font-family: "华文行楷";
+    /*width: 18em;*/
+}
+
+
+#career {
+    margin-top: 5px;
+    clear:left;
+    color: brown;
+    font: 1.5em bold;
+    border-bottom: solid black ;
+    font-family: "华文新魏";
+}
+
+
+ /*#assessment > p:first-child {*/
+    /*color: brown;*/
+    /*font-weight: bold;*/
+    /*font-family: inherit;*/
+    /*border-bottom: solid brown;*/
+/*}*/
+
+.comp {
+    clear:both;
+    float:left;
+}
+
+.website {
+    /*border-bottom: solid black;*/
+}
+
+.record {
+    margin-bottom: 1em;
+}
+
+.onerecord {
+    clear:both;
+    float:left;
+    margin-bottom: 1em;
+    /*border-top: solid #71ff1f;*/
+    /*border-bottom: solid #ff3633 ;*/
+}
+
+.date {
+    font-family: "impact", serif;
+    /*color: brown;*/
+    /*border-bottom: solid deepskyblue;*/
+    width: 10em;
+    float: left;
+    font-size: 1.2em;
+    /*border: solid black;*/
+}
+
+.role {
+    font-family: "华文楷体";
+    font-weight: bold;
+    color: teal;
+    font-size: 24px;
+}
+
+.content {
+    float: left;
+    width: 65%;
+    /*border: solid rebeccapurple;*/
+
+}
+
+.perf {
+    margin-top: 0;
+    font-family: "华文细黑";
+    font-size:16px;
+}
+
+#resumebottom {
+    margin-top: 1em;
+    clear:left;
+    color: brown;
+    font: 1.5em bold;
+    border-bottom: solid black ;
+}
