@@ -83,7 +83,15 @@ body {
 
 #assessment {
     font-family: "华文行楷", "serif";
+    font-size: 24px;
+    color: #68622e;
     /*width: 18em;*/
+}
+
+@media screen and (max-width: 900px) {
+    #assessment {
+        margin-top: 40px;
+    }
 }
 
 
